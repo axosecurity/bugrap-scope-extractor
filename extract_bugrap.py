@@ -3,6 +3,7 @@ import requests
 import json
 import re
 import os
+import time
 from urllib.parse import urlparse
 
 BASE_URL = "https://api.bugrap.io/api/v1/companies"
@@ -17,9 +18,11 @@ def get_companies():
             if not data:
                 break
             companies.extend([c["name"] for c in data])
+            time.sleep(2)  # Add delay between requests
         except Exception as e:
             print(f"Error fetching page {page}: {e}")
-            break
+            time.sleep(5)
+            continue
     return list(set(companies))
 
 def categorize_scope_item(item):
@@ -64,50 +67,45 @@ def extract_in_scope_items(policy):
     in_scope = []
     lines = policy.split('\n')
     in_table = False
-    skip_header = False
-    found_in_scope_section = False
+    in_header = False
     
-    for i, line in enumerate(lines):
-        # Look for "In Scope" section header
-        if '### In Scope' in line or '## In Scope' in line or '# In Scope' in line:
-            found_in_scope_section = True
-            continue
-        
-        # Stop at "Out of Scope" or other sections
-        if found_in_scope_section and ('### Out of Scope' in line or '## Out of Scope' in line or '# Out of Scope' in line):
-            break
-        
-        # Look for table start with pipes
-        if found_in_scope_section and line.strip().startswith('|') and '--' in line:
-            skip_header = True
+    for line in lines:
+        # Check for any table header with "In Scope" or "Scope" or "Asset"
+        if '| In Scope' in line or '| In Scopes' in line or '|Scope|' in line or ('| Category' in line and '| Asset' in line):
             in_table = True
+            in_header = True
             continue
         
-        if in_table:
+        # Skip the separator line (---)
+        if in_table and in_header and '---' in line:
+            in_header = False
+            continue
+        
+        if in_table and not in_header:
             # Process table rows
             if line.strip().startswith('|') and '--' not in line:
                 parts = [p.strip() for p in line.split('|')]
                 # Filter out empty parts
-                cells = [p for p in parts if p and p != '']
+                cells = [p for p in parts if p]
                 
-                # Skip header row (contains column names like "Category", "Asset", "Asset Category")
-                if cells and cells[0] not in ['Category', 'Asset Category', 'Asset', 'Description', 'In Scope', 'In Scopes']:
-                    # Add non-empty cells to in_scope
-                    for cell in cells:
-                        if cell and cell not in ['Category', 'Asset', 'Description', 'Asset Category']:
-                            in_scope.append(cell)
-            # End table if we hit a non-table line or markdown section
+                # For Category/Asset tables: grab the LAST column (Asset)
+                # For other tables: grab non-empty content except headers
+                if len(cells) >= 2:
+                    # Get the last cell (Asset column)
+                    content = cells[-1]
+                    if content and content not in ['', 'Asset', 'Description', 'Category', 'In Scope', 'In Scopes']:
+                        in_scope.append(content)
+            # End table if we hit a non-table line
+            elif line.strip() and not line.startswith('|') and line.strip().startswith('-'):
+                continue
             elif line.strip() and not line.startswith('|'):
-                if line.strip().startswith('#'):
-                    break
                 in_table = False
     
     return in_scope
 
 def get_scope(company_name):
     try:
-        resp = requests.get(f"{BASE_URL}/{company_name}", timeout=10)
-        resp.raise_for_status()
+        resp = requests.get(f"{BASE_URL}/{company_name}")
         data = resp.json().get("data", {})
         if not data:
             return None
@@ -123,7 +121,7 @@ def get_scope(company_name):
             "policy": policy[:500] + "..." if len(policy) > 500 else policy
         }
     except Exception as e:
-        print(f"Error fetching scope for {company_name}: {e}")
+        print(f"Error processing {company_name}: {e}")
         return None
 
 def save_categorized_files(results):
@@ -183,8 +181,10 @@ for i, name in enumerate(companies):
         scope = get_scope(name)
         if scope:
             results.append(scope)
+        time.sleep(1)  # Add delay between requests
     except Exception as e:
-        print(f"Error processing {name}: {e}")
+        print(f"Error: {e}")
+        time.sleep(2)
 
 # Save JSON
 with open("bugrap_scopes.json", "w") as f:

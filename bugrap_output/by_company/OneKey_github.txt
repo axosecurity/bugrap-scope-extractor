@@ -1,0 +1,5 @@
+[OneKey APP Monorepo](https://github.com/OneKeyHQ/app-monorepo)
+[OneKey Firmware Classic_1s](https://github.com/OneKeyHQ/firmware-classic1s)
+[OneKey Firmware Pro](https://github.com/OneKeyHQ/firmware-pro)
+[OneKey Firmware](https://github.com/OneKeyHQ/firmware)
+[OneKey Hardware SDK](https://github.com/OneKeyHQ/hardware-js-sdk)

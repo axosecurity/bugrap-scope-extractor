@@ -1,2 +1,7 @@
 Chrome / Edge / Firefox — Bitget Wallet Extension, latest version
-Wallet Extension
+Safeheron Chrome Extension
+[Mask Network Browser Extension](https://addons.mozilla.org/en-US/firefox/addon/maskbook/)
+[Mask Network Browser Extension](https://addons.opera.com/en/extensions/details/maskbook/)
+[Mask Network Browser Extension](https://chrome.google.com/webstore/detail/mask-network/jkoeaghipilijlahjplgbfiocjhldnap)
+[Sender Wallet Browser Extension](https://chrome.google.com/webstore/detail/sender-wallet/epapihdplajcdnnkdeiahlgigofloibg?utm_source=chrome-ntp-icon)
+[ZKSAFE Chrome Extension](https://chrome.google.com/webstore/detail/zksafe/nehdcpkmooagohgkdchblmnfljmnbihg)

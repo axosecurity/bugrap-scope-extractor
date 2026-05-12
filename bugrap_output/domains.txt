@@ -1,0 +1,8 @@
+[com.sender_wallet_mobile](https://play.google.com/store/apps/details?id=com.sender_wallet_mobile&pli=1)
+[im.token.app](https://apps.apple.com/us/app/imtoken2/id1384798940)
+[im.token.app](https://play.google.com/store/apps/details?id=im.token.app)
+[sender.near.wallet](https://apps.apple.com/us/app/sender-wallet/id1637821762)
+app.zksafe.pro
+dapp.mindnetwork.xyz
+dapptest.mindnetwork.xyz
+www.mindnetwork.xyz

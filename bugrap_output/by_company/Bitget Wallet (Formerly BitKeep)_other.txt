@@ -1,6 +1,0 @@
-Bitget Wallet web interfaces
-Bitget Wallet — latest version (App Store)
-Bitget Wallet — latest version (Google Play)
-Wallet App — Android
-Wallet App — iOS
-Web

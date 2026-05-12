@@ -1,2 +1,9 @@
+*.bigone.com  *.big.one
 *.bitget.com
-*.ourbit.com
+*.coin98.com
+*.mask.io
+*.mexc.com
+*.onekey.so
+*.safeheron.com, *.safeheron.vip
+*.senderwallet.io , *.sender.org
+*.sumer.money
