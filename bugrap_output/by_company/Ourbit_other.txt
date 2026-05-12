@@ -1,0 +1,19 @@
+**10 ~ 200 USDC**
+**2,000 ~ 5,000 USDC**
+**200 ~ 1,000 USDC**
+**5,000 ~ 20,000 USDC**
+**Android: Official Website**
+**Android: Play Store**
+**Critical**
+**High**
+**Low**
+**Medium**
+**Web: Domain**
+**iOS: App Store**
+Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities.
+High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.
+Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team should evaluate and consider whether these vulnerabilities need to be fixed.
+Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.
+Official Website
+ourbit Apple Store
+ourbit Google Play

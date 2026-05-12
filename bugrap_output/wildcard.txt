@@ -1,0 +1,2 @@
+*.bitget.com
+*.ourbit.com

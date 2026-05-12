@@ -1,0 +1,62 @@
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - img [ref=e12] [cursor=pointer]
+      - list [ref=e14]:
+        - link "Bounties" [ref=e15] [cursor=pointer]:
+          - /url: /bounties
+        - link "Contests" [ref=e16] [cursor=pointer]:
+          - /url: /contests
+        - link "Reports" [ref=e17] [cursor=pointer]:
+          - /url: /reports
+        - link "WhiteHats" [ref=e18] [cursor=pointer]:
+          - /url: /whiteHats
+        - link "Whitehat Teams" [ref=e19] [cursor=pointer]:
+          - /url: /whitehat-teams
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e23]:
+        - img [ref=e25]:
+          - img [ref=e26]
+        - textbox "Search" [ref=e27]
+        - button [ref=e29] [cursor=pointer]:
+          - img [ref=e30]:
+            - img [ref=e31]
+    - generic [ref=e32]:
+      - button "Submit a Report" [ref=e34] [cursor=pointer]:
+        - img [ref=e35]:
+          - img [ref=e36]
+        - generic [ref=e37]: Submit a Report
+      - generic [ref=e39]:
+        - button "Login" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]: Login
+        - generic [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: Register
+          - img "down" [ref=e49]:
+            - img [ref=e50]
+  - main [ref=e52]:
+    - generic [ref=e58]:
+      - navigation [ref=e60]:
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - generic [ref=e63]:
+              - img "home" [ref=e64]:
+                - img [ref=e65]
+              - link "Home" [ref=e67] [cursor=pointer]:
+                - /url: /
+            - text: /
+          - listitem [ref=e68]: Bounties
+      - generic [ref=e69]:
+        - heading "Submit a Report" [level=3]:
+          - button "Submit a Report" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: Submit a Report
+        - paragraph
+      - generic [ref=e73]:
+        - tablist [ref=e74]:
+          - generic [ref=e76]:
+            - tab "Policy" [selected] [ref=e78] [cursor=pointer]
+            - tab "Reports(0)" [ref=e80] [cursor=pointer]
+        - generic:
+          - generic:
+            - tabpanel
+  - generic [ref=e82]: ALL RIGHTS RESERVED © 2023 BUGRAP

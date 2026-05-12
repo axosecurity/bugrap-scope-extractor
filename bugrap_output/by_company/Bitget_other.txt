@@ -1,0 +1,9 @@
+Bitget Exchange — latest version
+Bitget Wallet — latest version
+Desktop Client
+Mobile App (Exchange) — Android
+Mobile App (Exchange) — iOS
+Wallet App — Android
+Wallet App — iOS
+Web
+Windows / macOS — Bitget Desktop Client, latest version

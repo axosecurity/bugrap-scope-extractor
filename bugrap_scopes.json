@@ -1,152 +1,17 @@
 [
   {
-    "name": "PlatON",
-    "description": "PlatON is an infrastracture for Privacy-Preserving Computation and Distributed Economies.",
-    "url": "https://bugrap.io/bounties/PlatON",
+    "name": "Cregis",
+    "description": "Cregis is a digital asset collaboration platform in Web3 era.Based on MPC technology, prevent shards of private key from evil with TEE (TrustZone/SGX/Nitro).",
+    "url": "https://bugrap.io/bounties/Cregis",
     "in_scope": [],
-    "policy": "### Project Overview\r\n\r\nPlatON, is a next-generation Internet infrastructure protocol based on the fundamental properties of blockchain and supported by the privacy-preserving computation network. \"Computing interoperability\" is its core feature.\r\n\r\n### Rewards\r\n\r\nRewards Rewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of PlatON, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\n\r\nIn case of mu..."
+    "policy": "### Project Overview\n\nCregis is a digital asset collaboration platform in Web3 era.Based on MPC technology, prevent shards of private key from evil with TEE (TrustZone/SGX/Nitro).\n\n### Rewards\n\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Cregis, quality, creativity, or novelty of submissions may modify payouts within a given range.\n\nIn case of multiple reports about the same issue, Cregis will reward the earliest submission, ..."
   },
   {
-    "name": "InsurAce",
-    "description": "InsurAce.io is a globally decentralized protocol that allows users to purchase mutual protection for their digital assets against losses from hacking, smart contract bugs, stable-coin de-peg, or other forms of digital asset related risks.",
-    "url": "https://bugrap.io/bounties/InsurAce",
-    "in_scope": [
-      "Ethereum Contract Address",
-      "Ethereum Contract Address",
-      "Ethereum Contract Address",
-      "Ethereum Contract Address",
-      "Ethereum Contract Address",
-      "BSC Contract Address",
-      "BSC Contract Address",
-      "BSC Contract Address",
-      "BSC Contract Address",
-      "BSC Contract Address",
-      "BSC Contract Address",
-      "Polygon Contract Address",
-      "Polygon Contract Address",
-      "Polygon Contract Address",
-      "Polygon Contract Address",
-      "Polygon Contract Address",
-      "AVAX Contract Address",
-      "AVAX Contract Address",
-      "AVAX Contract Address",
-      "AVAX Contract Address",
-      "AVAX Contract Address"
-    ],
-    "policy": "### Project Overview\nThe InsurAce Protocol (\"InsurAce.io\") is a leading decentralized multi-chain protocol that provides reliable, robust and secure risk protection services to DeFi users, allowing them to protect their investment funds against various risks. \n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Ethereum Contract Address  |  [StakersPoolV2](https://etherscan.io/address/0xa03d480cd..."
-  },
-  {
-    "name": "Zenlink",
-    "description": "Zenlink is an underlying cross-chain DEX protocol based on Polkadot, and is committed to become the DEX composable hub of Polkadot. By accessing the ultimate, open and universal cross-chain DEX protocol based on Substrate, Zenlink DEX Protocol enables all parachains to build DEX and achieve liquidity sharing in one click. Zenlink DEX Protocol includes Module, WASM, and EVM implementations, which are flexible and adaptable, allowing for customizable compositions and interoperability with different DeFi modules.",
-    "url": "https://bugrap.io/bounties/Zenlink",
-    "in_scope": [
-      "Smart Contract",
-      "Smart Contract",
-      "Smart Contract"
-    ],
-    "policy": "### Project Overview\r\nZenlink DEX Protocol is the underlying unified and universal cross-chain DEX Protocol, which enables parachains to quickly have DEX functionality and share liquidity with other parachains. In addition, Zenlink DEX Aggregator can connect to all DEX DApps on Polkadot, which together form the Zenlink DEX Network with full liquidity.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |                                                   |\r\n| ------------ | ------------------------------------------..."
-  },
-  {
-    "name": "MoreLogin",
-    "description": "MoreLogin is a cutting-edge technology business with a focus on browser security.",
-    "url": "https://bugrap.io/bounties/MoreLogin",
+    "name": "P12",
+    "description": "P12 is building the first and only GUI Onchain Engine for onchain games and autonomous worlds. P12 Editor integrates with onchain frameworks like MUD and Dojo, and simplifies gaming development primitives using prefabs and templates. P12 Editor empowers developers to achieve composable games creation, seamless assets deployment and permissionless open economies. P12 raised 8 million USD from investors including Primavera, Galxe, CyberConnect and CCV.",
+    "url": "https://bugrap.io/bounties/P12",
     "in_scope": [],
-    "policy": "### Project Overview\r\nMoreLogin is a cutting-edge technology business with a focus on browser security.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of MoreLogin , quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,MoreLogin will reward the earliest submission, regardless of how the issue was reported.\r\nCVSS standards will be used..."
-  },
-  {
-    "name": "Anome",
-    "description": "Anome is a groundbreaking platform for refundable asset issuance, gaming, and lending.",
-    "url": "https://bugrap.io/bounties/Anome",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nAnome is a NFT derivative issuance and lending platform that is firstly applied in fully on-chain gaming scenarios.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Anome, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,Anome will reward the earliest submission, regardless of how the issue was reported.\r\nCV..."
-  },
-  {
-    "name": "NeoX",
-    "description": "Neo X - Neo's highly secure, EVM-based sidechain.",
-    "url": "https://bugrap.io/bounties/NeoX",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nNeo X is Neo's sidechain, currently in its Beta Version TestNet. With its MEV resistance and full compatibility with Ethereum tooling, Neo X excels in cross-chain scalability and DeFi applications through its use of the dBFT consensus mechanism and enveloped transactions.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Neo X, quality, creativity, or novelty of submissions may modify payouts w..."
-  },
-  {
-    "name": "Rabby Wallet",
-    "description": "Rabby is an open source browser plugin for the DeFi ecosystem, providing users with a better-to-use and more secure multi-chain experience.",
-    "url": "https://bugrap.io/bounties/Rabby Wallet",
-    "in_scope": [
-      "Source Code:"
-    ],
-    "policy": "### Project Overview\r\nRabby is an open source browser plugin for the DeFi ecosystem, providing users with a better-to-use and more secure multi-chain experience.\r\n\r\nAt Rabby, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |     ..."
-  },
-  {
-    "name": "DeBox",
-    "description": "DeBox is your all-in-one Web3 tool.",
-    "url": "https://bugrap.io/bounties/DeBox",
-    "in_scope": [],
-    "policy": "### Project Overview\nDeBox is your all-in-one Web3 tool. Log in with your Web3 wallet to chat privately, in groups, Club discussions, DAO/NFT conversations, and share moments.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DeBox, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,DeBox will reward the earliest submission, regardless..."
-  },
-  {
-    "name": "Sumer",
-    "description": "Sumer is a cross-chain synthetic assets protocol with a lending and borrowing market, deployed simultaneously on a network of supported chains.",
-    "url": "https://bugrap.io/bounties/Sumer",
-    "in_scope": [
-      "Smart Contract",
-      "Websites and Applications"
-    ],
-    "policy": "### Project Overview\r\nSumer is a cross-chain synthetic assets protocol with a lending and borrowing market, deployed simultaneously on a network of supported chains.\r\nSumer provides a credit card-like experience to promote multichain liquidity and seamless cross-chain smart contract communications.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Sumer, quality, creativity, or novelty of submissions may modify payo..."
-  },
-  {
-    "name": "Turingbitchain",
-    "description": "Turingbitchain is the creator of the Bitcoin Virtual Machine (BVM) and has implemented a scalable BTC layer2.",
-    "url": "https://bugrap.io/bounties/Turingbitchain",
-    "in_scope": [],
-    "policy": "## \ud83d\udee0\ufe0f Project Overview\r\n\r\n**Turingbitchain** is the creator of the **Bitcoin Virtual Machine (BVM)** and has implemented a **scalable BTC Layer2** solution.\r\n\r\n---\r\n\r\n## \ud83c\udf81 Rewards\r\n\r\nRewards will be provided based on the rules of this bug bounty program. At the discretion of Turingbitchain, the **quality, creativity**, or **novelty** of the submission may influence the reward amount within a given range.\r\n\r\n- If multiple reports are submitted for the same issue, **only the earliest valid submiss..."
-  },
-  {
-    "name": "HashKey DID",
-    "description": "-",
-    "url": "https://bugrap.io/bounties/HashKey DID",
-    "in_scope": [],
-    "policy": "-"
-  },
-  {
-    "name": "imToken Website",
-    "description": "Digital Asset Under Your Control.",
-    "url": "https://bugrap.io/bounties/imToken Website",
-    "in_scope": [
-      "Web: Domain"
-    ],
-    "policy": "### Project Overview\nimToken is an easy and secure digital multiple chain wallet trusted by 10 millions.\n\nAt imToken Wallet, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Scopes\n\n| In Scopes           |                                                    ..."
-  },
-  {
-    "name": "Mind Network",
-    "description": "Mind Network introduces an FHE Restaking Layer built upon the restaking framework to further scale consensus security.",
-    "url": "https://bugrap.io/bounties/Mind Network",
-    "in_scope": [
-      "Websites and application",
-      "Websites and application",
-      "Websites and application"
-    ],
-    "policy": "### Project Overview\nMind Network introduces an FHE Restaking Layer built upon the restaking framework to further scale consensus security.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Mind Network, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,Mind Network will reward the earliest submission, regardless of how the issue was ..."
-  },
-  {
-    "name": "Unitus",
-    "description": "The Next-Generation Multichain Money Market.",
-    "url": "https://bugrap.io/bounties/Unitus",
-    "in_scope": [],
-    "policy": "### Project Overview\nUnitus is a decentralized money market protocol utilizing smart contracts to facilitate crypto lending.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Unitus, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,Unitus will reward the earliest submission, regardless of how the issue was reported.\nCVSS standards wi..."
-  },
-  {
-    "name": "B\u00b2 Network",
-    "description": "B\u00b2 Network is a Bitcoin Layer 2 network implemented through ZK Rollup and an on-chain logical gate commitment verification mechanism.",
-    "url": "https://bugrap.io/bounties/B\u00b2 Network",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nB\u00b2 Network is a Bitcoin Layer 2 network implemented through ZK Rollup and an on-chain logical gate commitment verification mechanism.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of B\u00b2 Network, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,B\u00b2 Network will reward the earliest submission, regardless of how..."
-  },
-  {
-    "name": "Tokenlon",
-    "description": "Tokenlon is a trusted decentralized exchange protocol on blockchain networks.",
-    "url": "https://bugrap.io/bounties/Tokenlon",
-    "in_scope": [],
-    "policy": "### Project Overview\nTokenlon is a trusted decentralized exchange protocol on blockchain networks.\n\nAt Tokenlon , we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Scopes\n\n| In Scopes    |                                                                      ..."
+    "policy": "### Project Overview\nP12 is building the first and only GUI Onchain Engine for onchain games and autonomous worlds. P12 Editor integrates with onchain frameworks like MUD and Dojo, and simplifies gaming development primitives using prefabs and templates. P12 Editor empowers developers to achieve composable games creation, seamless assets deployment and permissionless open economies. P12 raised 8 million USD from investors including Primavera, Galxe, CyberConnect and CCV.\n\n### Scopes\n\n| In Scopes..."
   },
   {
     "name": "Next.ID",
@@ -156,75 +21,25 @@
     "policy": "### Project Overview\r\n\r\nNext.ID is a decentralized identity (DID) creation and management protocol built for developers. The Next ID protocol is used as the secure connecting fiber between different web2 and web3 identifiers, such as wallets, twitter profiles, ENS names, Lens profiles, and many more.\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Next.ID, quality, creativity, or novelty of submissions may modif..."
   },
   {
-    "name": "Bifrost",
-    "description": "Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains.",
-    "url": "https://bugrap.io/bounties/Bifrost",
-    "in_scope": [
-      "Blockchain",
-      "Blockchain",
-      "Blockchain",
-      "Websites and Applications"
-    ],
-    "policy": "### Project Overview\r\nBifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains.\r\n\r\nFor more information about Bifrost Finance, please visit https://bifrost.finance/.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Bifrost, quality, creativity, ..."
-  },
-  {
-    "name": "Increment Finance",
-    "description": "Increment Finance is a one-stop DeFi platform on Flow blockchain, providing services including AMM DEX, Liquidity Incentive Service, Money Market, and Liquid Staking all in one place.",
-    "url": "https://bugrap.io/bounties/Increment Finance",
-    "in_scope": [
-      "AMM DEX Smart Contracts",
-      "Decentralized Money Market Smart Contracts",
-      "Decentralized Price Feed Smart Contracts",
-      "Liquidity Mining Smart Contracts",
-      "Liquid Staking Smart Contracts"
-    ],
-    "policy": "#### Project Overview\nIncrement Labs is building several DeFi protocols on Flow blockchain, with the vision to become the liquidity & yield engine for the Flow ecosystem.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| AMM DEX Smart Contracts | [AMM DEX Smart Contracts](https://docs.increment.fi/protocols/decentralized-exchange/c..."
-  },
-  {
-    "name": "Bitget Wallet (Formerly BitKeep)",
-    "description": "Bitget Wallet \u2014 Your Web3 Trading Wallet of the Future",
-    "url": "https://bugrap.io/bounties/Bitget Wallet (Formerly BitKeep)",
+    "name": "B\u00b2 Network",
+    "description": "B\u00b2 Network is a Bitcoin Layer 2 network implemented through ZK Rollup and an on-chain logical gate commitment verification mechanism.",
+    "url": "https://bugrap.io/bounties/B\u00b2 Network",
     "in_scope": [],
-    "policy": "# Bitget Wallet Bug Bounty Program\n\n## 1. Project Overview\n\nFormerly known as BitKeep, Bitget Wallet is a world-class multi-chain crypto wallet serving millions of users globally. It offers comprehensive Web3 solutions including wallet functionality, token swap, NFT Marketplace, DApp browser, and cross-chain bridging. Bitget Wallet is committed to maintaining the highest security standards to protect user assets and privacy.\n\n### Asset Summary\n\n| Asset Category | Description |\n|---|---|\n| Web | ..."
+    "policy": "### Project Overview\r\nB\u00b2 Network is a Bitcoin Layer 2 network implemented through ZK Rollup and an on-chain logical gate commitment verification mechanism.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of B\u00b2 Network, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,B\u00b2 Network will reward the earliest submission, regardless of how..."
+  },
+  {
+    "name": "Safeheron",
+    "description": "Safeheron  is an open & transparent  dgital asset self-custody platform.",
+    "url": "https://bugrap.io/bounties/Safeheron",
+    "in_scope": [],
+    "policy": "### Project Overview\nSafeheron  is an open & transparent  dgital asset self-custody platform.\n\nAt Safeheron , we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Core Scopes\n| Name |                   \n| ------------ |\n| Safeheron self-custody assets|\n| Safehe..."
   },
   {
     "name": "Degis",
     "description": "Degis is the next-generation all-in-one DeFi protection protocol, the first on Avalanche.",
     "url": "https://bugrap.io/bounties/Degis",
-    "in_scope": [
-      "Source Code: GitHub Repository",
-      "Source Code: GitHub Repository"
-    ],
+    "in_scope": [],
     "policy": "### Project Overview\r\nDegis is the next-generation all-in-one DeFi protection protocol, the first on Avalanche. Degis will offer exhaustive protection to users and traders, offer a decentralized protection market and ultimately bring scalable risk management to the crypto world.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |                                                   |\r\n| ------------ | ------------------------------------------------- |\r\n| Source Code: GitHub Repository  |  [Protocol Protection](http..."
-  },
-  {
-    "name": "P12",
-    "description": "P12 is building the first and only GUI Onchain Engine for onchain games and autonomous worlds. P12 Editor integrates with onchain frameworks like MUD and Dojo, and simplifies gaming development primitives using prefabs and templates. P12 Editor empowers developers to achieve composable games creation, seamless assets deployment and permissionless open economies. P12 raised 8 million USD from investors including Primavera, Galxe, CyberConnect and CCV.",
-    "url": "https://bugrap.io/bounties/P12",
-    "in_scope": [
-      "Websites and Applications",
-      "P12 Landingsite",
-      "P12 Arcana",
-      "P12 Assets",
-      "Smart Contracts",
-      "P12 Arcana on BNBChain",
-      "P12 Arcana on Linea",
-      "P12 Arcana on Manta Pacific",
-      "P12 Bridge on BNBChain",
-      "P12 Bridge on Polygon"
-    ],
-    "policy": "### Project Overview\nP12 is building the first and only GUI Onchain Engine for onchain games and autonomous worlds. P12 Editor integrates with onchain frameworks like MUD and Dojo, and simplifies gaming development primitives using prefabs and templates. P12 Editor empowers developers to achieve composable games creation, seamless assets deployment and permissionless open economies. P12 raised 8 million USD from investors including Primavera, Galxe, CyberConnect and CCV.\n\n### Scopes\n\n| In Scopes..."
-  },
-  {
-    "name": "BigONE",
-    "description": "BigONE is a global cryptocurrency exchange that provides a platform for trading various cryptocurrencies. It was founded in 2017 and registered in the Seychelles. The group operates in Russia, Brazil, Vietnam, Seychelles, Singapore, Japan, and Indonesia, providing marketing, investment, and blockchain technology research & development.",
-    "url": "https://bugrap.io/bounties/BigONE",
-    "in_scope": [
-      "Android: Play Store",
-      "iOS: App Store",
-      "Web: Domain"
-    ],
-    "policy": "### Project Overview\r\nBigONE is a global cryptocurrency exchange that provides a platform for trading various cryptocurrencies. It was founded in 2017 and registered in the Seychelles. The group operates in Russia, Brazil, Vietnam, Seychelles, Singapore, Japan, and Indonesia, providing marketing, investment, and blockchain technology research & development.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |                                                   |\r\n| ------------ | ------------------------------------..."
   },
   {
     "name": "MUFEX",
@@ -234,31 +49,109 @@
     "policy": "### Project Overview\r\n\r\nMUFEX is a revolutionary perpetual futures DEX that combines the advantages of CEX and DEX, providing the best user experience.\r\n\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of MUFEX, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\n\r\n\r\nIn case of multiple reports about the same issue, MUFEX will reward the earliest submission, regardless of how th..."
   },
   {
-    "name": "Mask",
-    "description": "Mask Network brings privacy and benefits from Web3 to social media like Twitter & Facebook - with an open-sourced browser extension.",
-    "url": "https://bugrap.io/bounties/Mask",
-    "in_scope": [
-      "Source Code: GitHub",
-      "Chrome: Webstore",
-      "Opera Addons",
-      "Firefox Browser",
-      "Websites and application"
-    ],
-    "policy": "### Project Overview\r\n\r\nMask Network brings privacy and benefits from Web3 to social media like Twitter & Facebook - with an open-sourced browser extension.\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined. At the discretion of Mask Network, quality, creativity, or novelty of submissions may adjust payouts within a given range.\r\n\r\nIn case of multiple reports about the same issue, Mask Network will reward the earliest submission, regardless ..."
+    "name": "Increment Finance",
+    "description": "Increment Finance is a one-stop DeFi platform on Flow blockchain, providing services including AMM DEX, Liquidity Incentive Service, Money Market, and Liquid Staking all in one place.",
+    "url": "https://bugrap.io/bounties/Increment Finance",
+    "in_scope": [],
+    "policy": "#### Project Overview\nIncrement Labs is building several DeFi protocols on Flow blockchain, with the vision to become the liquidity & yield engine for the Flow ecosystem.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| AMM DEX Smart Contracts | [AMM DEX Smart Contracts](https://docs.increment.fi/protocols/decentralized-exchange/c..."
   },
   {
-    "name": "DeepBrain Chain",
-    "description": "DeepBrain Chain 2.0 is the world's first artificial intelligence public blockchain, building decentralized AI infrastructure, compatible with the EVM smart contract standard, and supporting decentralized AI model operation.",
-    "url": "https://bugrap.io/bounties/DeepBrain Chain",
+    "name": "DigiFT",
+    "description": "DigiFT is a regulated exchange for on-chain real-world assets",
+    "url": "https://bugrap.io/bounties/DigiFT",
     "in_scope": [],
-    "policy": "### Project Overview\r\nDeepBrain Chain 2.0 is the world's first artificial intelligence public blockchain, building decentralized AI infrastructure, compatible with the EVM smart contract standard, and supporting decentralized AI model operation\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DeepBrain Chain, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple ..."
+    "policy": "### Project Overview\n\nDigiFT is a next-generation regulated platform for tokenized real-world assets (RWAs).\nBacked by top-tier institutional partners, DigiFT brings together regulatory compliance, smart contract infrastructure, and deep financial expertise to enable secure, on-chain access to regulated RWA products.\n\n### Rewards\n\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DigiFT, quality, creativity, or novelty of submissio..."
   },
   {
-    "name": "Pop Social",
-    "description": "Pop is the ultimate social gateway to Web3. Experience a decentralized app that empowers content creators and consumers to gain value in return for the value they bring to our platform. Own your original content to leverage the creator economy and claim social recognition.",
-    "url": "https://bugrap.io/bounties/Pop Social",
+    "name": "BigONE",
+    "description": "BigONE is a global cryptocurrency exchange that provides a platform for trading various cryptocurrencies. It was founded in 2017 and registered in the Seychelles. The group operates in Russia, Brazil, Vietnam, Seychelles, Singapore, Japan, and Indonesia, providing marketing, investment, and blockchain technology research & development.",
+    "url": "https://bugrap.io/bounties/BigONE",
     "in_scope": [],
-    "policy": "### Project Overview\nPop is the ultimate social gateway to Web3. Experience a decentralized app that empowers content creators and consumers to gain value in return for the value they bring to our platform. Own your original content to leverage the creator economy and claim social recognition.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Pop, quality, creativity, or novelty of submissions may modify payouts within ..."
+    "policy": "### Project Overview\r\nBigONE is a global cryptocurrency exchange that provides a platform for trading various cryptocurrencies. It was founded in 2017 and registered in the Seychelles. The group operates in Russia, Brazil, Vietnam, Seychelles, Singapore, Japan, and Indonesia, providing marketing, investment, and blockchain technology research & development.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |                                                   |\r\n| ------------ | ------------------------------------..."
+  },
+  {
+    "name": "Sumer",
+    "description": "Sumer is a cross-chain synthetic assets protocol with a lending and borrowing market, deployed simultaneously on a network of supported chains.",
+    "url": "https://bugrap.io/bounties/Sumer",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nSumer is a cross-chain synthetic assets protocol with a lending and borrowing market, deployed simultaneously on a network of supported chains.\r\nSumer provides a credit card-like experience to promote multichain liquidity and seamless cross-chain smart contract communications.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Sumer, quality, creativity, or novelty of submissions may modify payo..."
+  },
+  {
+    "name": "InsurAce",
+    "description": "InsurAce.io is a globally decentralized protocol that allows users to purchase mutual protection for their digital assets against losses from hacking, smart contract bugs, stable-coin de-peg, or other forms of digital asset related risks.",
+    "url": "https://bugrap.io/bounties/InsurAce",
+    "in_scope": [],
+    "policy": "### Project Overview\nThe InsurAce Protocol (\"InsurAce.io\") is a leading decentralized multi-chain protocol that provides reliable, robust and secure risk protection services to DeFi users, allowing them to protect their investment funds against various risks. \n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Ethereum Contract Address  |  [StakersPoolV2](https://etherscan.io/address/0xa03d480cd..."
+  },
+  {
+    "name": "imToken Website",
+    "description": "Digital Asset Under Your Control.",
+    "url": "https://bugrap.io/bounties/imToken Website",
+    "in_scope": [],
+    "policy": "### Project Overview\nimToken is an easy and secure digital multiple chain wallet trusted by 10 millions.\n\nAt imToken Wallet, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Scopes\n\n| In Scopes           |                                                    ..."
+  },
+  {
+    "name": "Coin98",
+    "description": "Coin98 is building the infrastructure for Web3 with a suite of DeFi products | Coin98 Wallet, Coin98 Exchange and SpaceGate.",
+    "url": "https://bugrap.io/bounties/Coin98",
+    "in_scope": [],
+    "policy": "### Project Overview\nCoin98 is building the infrastructure for Web3 with a suite of DeFi products | Coin98 Wallet, Coin98 Exchange and SpaceGate.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| Android: Play Store | [Coin98 Google Play](https://play.google.com/store/apps/details?id=coin98.crypto.finance.media) |\n| iOS: App Store ..."
+  },
+  {
+    "name": "Transit swap",
+    "description": "Transit swap is a Cross-Chain Swap Aggregator Platform on #ETH #BSC #Polygon #Heco #Tron #OEC #HSC and etc.",
+    "url": "https://bugrap.io/bounties/Transit swap",
+    "in_scope": [],
+    "policy": "### Project Overview\nTransit swap is a Cross-Chain Swap Aggregator Platform on #ETH #BSC #Polygon #Heco #Tron #OEC #HSC and etc.\n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Latest Source | [TransitRouterV5 Source](https://github.com/Transit-Finance/transit-core-v5)\n\n\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion..."
+  },
+  {
+    "name": "Mind Network",
+    "description": "Mind Network introduces an FHE Restaking Layer built upon the restaking framework to further scale consensus security.",
+    "url": "https://bugrap.io/bounties/Mind Network",
+    "in_scope": [],
+    "policy": "### Project Overview\nMind Network introduces an FHE Restaking Layer built upon the restaking framework to further scale consensus security.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Mind Network, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,Mind Network will reward the earliest submission, regardless of how the issue was ..."
+  },
+  {
+    "name": "Anome",
+    "description": "Anome is a groundbreaking platform for refundable asset issuance, gaming, and lending.",
+    "url": "https://bugrap.io/bounties/Anome",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nAnome is a NFT derivative issuance and lending platform that is firstly applied in fully on-chain gaming scenarios.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Anome, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,Anome will reward the earliest submission, regardless of how the issue was reported.\r\nCV..."
+  },
+  {
+    "name": "Tokenlon",
+    "description": "Tokenlon is a trusted decentralized exchange protocol on blockchain networks.",
+    "url": "https://bugrap.io/bounties/Tokenlon",
+    "in_scope": [],
+    "policy": "### Project Overview\nTokenlon is a trusted decentralized exchange protocol on blockchain networks.\n\nAt Tokenlon , we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Scopes\n\n| In Scopes    |                                                                      ..."
+  },
+  {
+    "name": "DeBox",
+    "description": "DeBox is your all-in-one Web3 tool.",
+    "url": "https://bugrap.io/bounties/DeBox",
+    "in_scope": [],
+    "policy": "### Project Overview\nDeBox is your all-in-one Web3 tool. Log in with your Web3 wallet to chat privately, in groups, Club discussions, DAO/NFT conversations, and share moments.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DeBox, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,DeBox will reward the earliest submission, regardless..."
+  },
+  {
+    "name": "Coral Finance",
+    "description": "Coral Finance is the premier marketplace and liquidity hub for pre-market assets, where users can easily discover hidden gems and blue chips.",
+    "url": "https://bugrap.io/bounties/Coral Finance",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nCoral Finance is the premier marketplace and liquidity hub for pre-market assets, where users can easily discover hidden gems and blue chips.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Coral Finance, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,Coral Finance will reward the earliest submission, reg..."
+  },
+  {
+    "name": "imToken Wallet",
+    "description": "Digital Asset Under Your Control.",
+    "url": "https://bugrap.io/bounties/imToken Wallet",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nimToken is an easy and secure digital multiple chain wallet trusted by 10 millions.\r\n\r\nAt imToken Wallet, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\r\n\r\n### Scopes\r\n\r\n| In Scopes           |                                             ..."
+  },
+  {
+    "name": "HashKey DID",
+    "description": "-",
+    "url": "https://bugrap.io/bounties/HashKey DID",
+    "in_scope": [],
+    "policy": "-"
   },
   {
     "name": "HashKey Exchange",
@@ -268,29 +161,39 @@
     "policy": "### Project Overview\n\nThe Licensed Exchange In Hong Kong.\nAs a highly recognized virtual asset trading platform, we provide a safe and secure trading environment based on licensing compliance. Through HashKey Exchange, you will enjoy a fast, secure and convenient trading experience.\n\n### Rewards\n\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of HashKey Exchange, quality, creativity, or novelty of submissions may modify payouts wit..."
   },
   {
+    "name": "NeoX",
+    "description": "Neo X - Neo's highly secure, EVM-based sidechain.",
+    "url": "https://bugrap.io/bounties/NeoX",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nNeo X is Neo's sidechain, currently in its Beta Version TestNet. With its MEV resistance and full compatibility with Ethereum tooling, Neo X excels in cross-chain scalability and DeFi applications through its use of the dBFT consensus mechanism and enveloped transactions.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Neo X, quality, creativity, or novelty of submissions may modify payouts w..."
+  },
+  {
+    "name": "Soex",
+    "description": "SOEX is a cutting-edge social trading platform designed to connect traders, enhance your trading experience, and maximize your earnings through innovative features, next-gen assets and a strong focus on community engagement.",
+    "url": "https://bugrap.io/bounties/Soex",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nSOEX is a cutting-edge social trading platform designed to connect traders, enhance your trading experience, and maximize your earnings through innovative features, next-gen assets and a strong focus on community engagement.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Soex, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports..."
+  },
+  {
     "name": "CoolWallet",
     "description": "CoolWallet is a family of secure cryptocurrency wallets developed by CoolBitX, designed to safeguard users\u2019 digital assets through a combination of hardware-based key protection and secure mobile interfaces.",
     "url": "https://bugrap.io/bounties/CoolWallet",
-    "in_scope": [
-      "Hardware",
-      "Hardware SDK",
-      "Android: Google Play"
-    ],
+    "in_scope": [],
     "policy": "### **Project Overview**\n\nCoolWallet is a family of secure cryptocurrency wallets developed by **CoolBitX**, designed to safeguard users\u2019 digital assets through a combination of **hardware-based key protection** and **secure mobile interfaces**.  \nThis bounty program invites the security community to help strengthen the ecosystem by identifying vulnerabilities that could impact the confidentiality of private keys, the integrity of transactions, or the reliability of CoolWallet\u2019s supporting softw..."
   },
   {
-    "name": "OneKey",
-    "description": "The best way to keep crypto assets safe in the industry. Your bitcoin, ethereum, solana, and other crypto assets can all be safe and secure.",
-    "url": "https://bugrap.io/bounties/OneKey",
-    "in_scope": [
-      "APP monorepo",
-      "Firmware (Pro)",
-      "Firmware (Classic 1s)",
-      "Firmware (Legacy-Deprecated)",
-      "Hardware SDK",
-      "Websites and Applications"
-    ],
-    "policy": "# OneKey Bug Bounty Program\n\nThis bug bounty program covers code within the OneKey repositories that directly impacts the security of OneKey products and users.\n\nAll vulnerability reports must be submitted through one of the following channels:\n1. **Private disclosure**: Send an email to [security@onekey.so](mailto:[security@onekey.so]) \u2014 recommended for high-severity vulnerabilities. Private submissions remain fully eligible for bounties.\n2. **BugRap Platform**: Submit through our official page..."
+    "name": "Pop Social",
+    "description": "Pop is the ultimate social gateway to Web3. Experience a decentralized app that empowers content creators and consumers to gain value in return for the value they bring to our platform. Own your original content to leverage the creator economy and claim social recognition.",
+    "url": "https://bugrap.io/bounties/Pop Social",
+    "in_scope": [],
+    "policy": "### Project Overview\nPop is the ultimate social gateway to Web3. Experience a decentralized app that empowers content creators and consumers to gain value in return for the value they bring to our platform. Own your original content to leverage the creator economy and claim social recognition.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Pop, quality, creativity, or novelty of submissions may modify payouts within ..."
+  },
+  {
+    "name": "DeepBrain Chain",
+    "description": "DeepBrain Chain 2.0 is the world's first artificial intelligence public blockchain, building decentralized AI infrastructure, compatible with the EVM smart contract standard, and supporting decentralized AI model operation.",
+    "url": "https://bugrap.io/bounties/DeepBrain Chain",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nDeepBrain Chain 2.0 is the world's first artificial intelligence public blockchain, building decentralized AI infrastructure, compatible with the EVM smart contract standard, and supporting decentralized AI model operation\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DeepBrain Chain, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple ..."
   },
   {
     "name": "DeSyn",
@@ -300,90 +203,18 @@
     "policy": "### Project Overview\r\nDeSyn Protocol is an innovative decentralized asset management infrastructure on Web3, empowering users to securely and transparently create and manage customized pool-based portfolios with various on-chain assets (tokens, NFTs, derivatives, etc.) via smart contract.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DeSyn, quality, creativity, or novelty of submissions may modify payouts within a..."
   },
   {
-    "name": "ZKSAFE",
-    "description": "ZKSAFE | A security partner of crypto wallet.",
-    "url": "https://bugrap.io/bounties/ZKSAFE",
-    "in_scope": [
-      "Web: Domain",
-      "Chrome: Web Store",
-      "Source Code",
-      "Smart Contract"
-    ],
-    "policy": "### Project Overview\nZKSAFE | A security partner of crypto wallet\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| Web: Domain         | app.zksafe.pro                                    |\n| Chrome: Web Store   | [ZKSAFE Chrome Extension](https://chrome.google.com/webstore/detail/zksafe/nehdcpkmooagohgkdchblmnfljmnbihg)        |\n|..."
-  },
-  {
-    "name": "TokenPocket",
-    "description": "TokenPocket is a world-leading crypto wallet, supporting public blockchains including BTC, ETH, BSC, TRON, Aptos, Polygon, Solana, OKExChain, Polkadot, Kusama, EOS and Layer2.",
-    "url": "https://bugrap.io/bounties/TokenPocket",
-    "in_scope": [
-      "iOS: App Store",
-      "Android: Play Store"
-    ],
-    "policy": "### Project Overview\nTokenPocket is a world-leading crypto wallet, supporting public blockchains including BTC, ETH, BSC, TRON, Aptos, Polygon, Solana, OKExChain, Polkadot, Kusama, EOS and Layer2.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| iOS: App Store      | [TokenPocket for IOS](https://apps.apple.com/hk/app/tp-global-wa..."
-  },
-  {
-    "name": "Bitget",
-    "description": "Launched in 2018, Bitget provides comprehensive and secure trading solutions to our global userbase.\nThe following is a description of the types of vulnerabilities we accept, and we reject software bugs that do not pose a security risk.\nReceived vulnerability types:\n- Authentication and authorization issues: including password reset, session management, access control, etc.\n- Input validation and data processing: Issues involving user input, such as cross-site scripting (XSS), SQL injection, remote code execution, etc.\n- Sensitive information leakage: including unencrypted transmission, incorrect data storage, etc. that lead to sensitive information leakage.\n- Network security configuration: involves configuration issues such as network protocols, firewalls, and security groups.\n- Logic vulnerability: involves a logic error or inconsistency in an application that may result in unauthorized access or disruption of functionality.\n- Server configuration: including network server, database server and other configuration issues.\n- Mobile Application Security: Covers vulnerabilities in mobile applications such as insecure data storage, unauthorized access, etc.\nUnreceived software bug types:\n- Interface issues, style issues, or user experience issues.\n- Performance issues, memory leaks, or optimization issues.\n- Feature bugs or feature suggestions.\n- Vulnerabilities that have been publicly disclosed and do not pose a security risk.",
-    "url": "https://bugrap.io/bounties/Bitget",
+    "name": "Turingbitchain",
+    "description": "Turingbitchain is the creator of the Bitcoin Virtual Machine (BVM) and has implemented a scalable BTC layer2.",
+    "url": "https://bugrap.io/bounties/Turingbitchain",
     "in_scope": [],
-    "policy": "# Bitget Bug Bounty Program\n\n## 1. Project Overview\n\nEstablished in 2018, Bitget is the world's leading cryptocurrency exchange and Web3 company. Serving over 25 million users in 100+ countries and regions, the Bitget exchange is committed to helping users trade smarter with its pioneering copy trading feature and other trading solutions. Formerly known as BitKeep, Bitget Wallet is a world-class multi-chain crypto wallet that offers an array of comprehensive Web3 solutions and features including..."
+    "policy": "## \ud83d\udee0\ufe0f Project Overview\r\n\r\n**Turingbitchain** is the creator of the **Bitcoin Virtual Machine (BVM)** and has implemented a **scalable BTC Layer2** solution.\r\n\r\n---\r\n\r\n## \ud83c\udf81 Rewards\r\n\r\nRewards will be provided based on the rules of this bug bounty program. At the discretion of Turingbitchain, the **quality, creativity**, or **novelty** of the submission may influence the reward amount within a given range.\r\n\r\n- If multiple reports are submitted for the same issue, **only the earliest valid submiss..."
   },
   {
-    "name": "JOJO",
-    "description": "JOJO is a decentralized perpetual contract trading platform that uses an off-chain matching and on-chain settlement order book model.\r\nJOJO balances liquidity and composability, providing professional traders with a smooth, fast, low-cost trading experience and hedging capabilities for other DeFi protocols.",
-    "url": "https://bugrap.io/bounties/JOJO",
+    "name": "Bifrost",
+    "description": "Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains.",
+    "url": "https://bugrap.io/bounties/Bifrost",
     "in_scope": [],
-    "policy": "### Project Overview\r\n\r\nJOJO is a decentralized perpetual contract trading platform that uses an off-chain matching and on-chain settlement order book model.\r\nJOJO balances liquidity and composability, providing professional traders with a smooth, fast, low-cost trading experience and hedging capabilities for other DeFi protocols.\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of jojo exchange, quality, creativity..."
-  },
-  {
-    "name": "Ourbit",
-    "description": "Trade Bitcoin (BTC), Ethereum (ETH), Altcoins, Memecoins, NFTs, DeFi, GameFi & Metaverse tokens securely on Ourbit. Fast transactions & best liquidity.",
-    "url": "https://bugrap.io/bounties/Ourbit",
-    "in_scope": [],
-    "policy": "# Ourbit Bug Bounty Program\n\n## Introduction\n\n**Ourbit Global**  \nFounded in 2024, Ourbit Global, with its high performance and mega transaction matching technology, is recognized as a secure and reliable exchange. The team at Ourbit Global are some of the first movers and pioneers of financial and blockchain technology.\n\n---\n\n## In Scopes\n\n| Platform | Target |\n|----------|---------------------|\n| **Android: Play Store** | ourbit Google Play |\n| **Android: Official Website** | Official Website ..."
-  },
-  {
-    "name": "Cobo",
-    "description": "Cobo is a globally trusted leader in digital asset custody solutions. As the world's first omni-custody platform, Cobo offers a complete range of solutions \u2013 from custodial wallets to non-custodial wallets, including MPC and smart contract wallets, as well as Wallet-as-a-Service, an on-chain digital asset management platform (Argus), and an off-exchange settlement network (SuperLoop).",
-    "url": "https://bugrap.io/bounties/Cobo",
-    "in_scope": [],
-    "policy": "### Project Overview\r\n\r\nCobo is a professional digital asset management wallet that will help you store your assets safely\r\n\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Cobo, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\n\r\nIn case of multiple reports about the same issue,Cobo will reward the earliest submission, regardless of how the issue was reported.\r\n\r\nCVSS stan..."
-  },
-  {
-    "name": "Cregis",
-    "description": "Cregis is a digital asset collaboration platform in Web3 era.Based on MPC technology, prevent shards of private key from evil with TEE (TrustZone/SGX/Nitro).",
-    "url": "https://bugrap.io/bounties/Cregis",
-    "in_scope": [],
-    "policy": "### Project Overview\n\nCregis is a digital asset collaboration platform in Web3 era.Based on MPC technology, prevent shards of private key from evil with TEE (TrustZone/SGX/Nitro).\n\n### Rewards\n\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Cregis, quality, creativity, or novelty of submissions may modify payouts within a given range.\n\nIn case of multiple reports about the same issue, Cregis will reward the earliest submission, ..."
-  },
-  {
-    "name": "Wizz Wallet",
-    "description": "Wizz Wallet is the first wallet for Atomicals Protocol.",
-    "url": "https://bugrap.io/bounties/Wizz Wallet",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nWizz Wallet is the first wallet for Atomicals Protocol. You can mint and transfer ARC20, NFT and realms with both browser extension and mobile App.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Wizz Wallet, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue, Wizz Wallet will reward the earliest submission, ..."
-  },
-  {
-    "name": "Safeheron",
-    "description": "Safeheron  is an open & transparent  dgital asset self-custody platform.",
-    "url": "https://bugrap.io/bounties/Safeheron",
-    "in_scope": [
-      "Domain",
-      "APP",
-      "Extension"
-    ],
-    "policy": "### Project Overview\nSafeheron  is an open & transparent  dgital asset self-custody platform.\n\nAt Safeheron , we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\n\n### Core Scopes\n| Name |                   \n| ------------ |\n| Safeheron self-custody assets|\n| Safehe..."
-  },
-  {
-    "name": "imToken Wallet",
-    "description": "Digital Asset Under Your Control.",
-    "url": "https://bugrap.io/bounties/imToken Wallet",
-    "in_scope": [
-      "Android: Play Store",
-      "iOS: App Store",
-      "Source Code: GitHub"
-    ],
-    "policy": "### Project Overview\r\nimToken is an easy and secure digital multiple chain wallet trusted by 10 millions.\r\n\r\nAt imToken Wallet, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\r\n\r\n### Scopes\r\n\r\n| In Scopes           |                                             ..."
+    "policy": "### Project Overview\r\nBifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. By leveraging on the cross-consensus message (XCM) it can provide cross-chain liquid staking services for multiple chains.\r\n\r\nFor more information about Bifrost Finance, please visit https://bifrost.finance/.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Bifrost, quality, creativity, ..."
   },
   {
     "name": "HOPE",
@@ -396,60 +227,43 @@
     "name": "Sender",
     "description": "Sender Wallet is a web3 wallet that is compatible with Ethereum and NEAR, allowing you to control your cryptocurrency, NFTs, DeFi activities, and digital assets.",
     "url": "https://bugrap.io/bounties/Sender",
-    "in_scope": [
-      "Android: Play Store",
-      "iOS: App Store",
-      "Chrome: Webstore",
-      "Web: Domain"
-    ],
+    "in_scope": [],
     "policy": "### Project Overview\r\nSender Wallet is a non-custodial wallet built on the NEAR blockchain. Currently, the Sender browser-based plug-in is supporting Chrome, Brave, Edge, and Kiwi. Sender is also one of the most used cryptocurrency wallets in the NEAR ecosystem.\r\n\r\nAt Sender Wallet, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to prov..."
   },
   {
-    "name": "LBank",
-    "description": "LBank Exchange is a top cryptocurrency trading platform with licenses of NFA, MSB, and Canada MSB.",
-    "url": "https://bugrap.io/bounties/LBank",
+    "name": "Cobo",
+    "description": "Cobo is a globally trusted leader in digital asset custody solutions. As the world's first omni-custody platform, Cobo offers a complete range of solutions \u2013 from custodial wallets to non-custodial wallets, including MPC and smart contract wallets, as well as Wallet-as-a-Service, an on-chain digital asset management platform (Argus), and an off-exchange settlement network (SuperLoop).",
+    "url": "https://bugrap.io/bounties/Cobo",
     "in_scope": [],
-    "policy": "## Project Overview\n\nLBank is a global digital asset trading platform established in 2015, providing secure, professional, and user-friendly services. To maintain platform security and reward security researchers, we are launching the **LBank Bug Bounty Program**. We value security contributions that help us protect our users and core business functions.\n\n## Scope\n\n### In Scope\n\n- Android App (Google Play)\n- iOS App (App Store)\n- Official Website: `*.lbank.com`\n- Core business modules:\n  - Login..."
+    "policy": "### Project Overview\r\n\r\nCobo is a professional digital asset management wallet that will help you store your assets safely\r\n\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Cobo, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\n\r\nIn case of multiple reports about the same issue,Cobo will reward the earliest submission, regardless of how the issue was reported.\r\n\r\nCVSS stan..."
   },
   {
-    "name": "Mexc",
-    "description": "Founded in 2018, MEXC Global is known as the exchange of high performance and mega transaction matching technology. The team at MEXC Global are some of the first movers and pioneers of financial and blockchain technology.",
-    "url": "https://bugrap.io/bounties/Mexc",
+    "name": "Ourbit",
+    "description": "Trade Bitcoin (BTC), Ethereum (ETH), Altcoins, Memecoins, NFTs, DeFi, GameFi & Metaverse tokens securely on Ourbit. Fast transactions & best liquidity.",
+    "url": "https://bugrap.io/bounties/Ourbit",
     "in_scope": [
-      "Android: Play Store",
-      "[Official Website](https://m.mexc.com/mobileApp/download)",
-      "iOS: App Store",
-      "Web: Domain"
+      "**Android: Play Store**",
+      "ourbit Google Play",
+      "**Android: Official Website**",
+      "Official Website",
+      "**iOS: App Store**",
+      "ourbit Apple Store",
+      "**Web: Domain**",
+      "`*.ourbit.com`",
+      "**Critical**",
+      "Critical severity vulnerabilities will have a significant impact on the security of the project, and it is strongly recommended to fix the critical vulnerabilities.",
+      "**5,000 ~ 20,000 USDC**",
+      "**High**",
+      "High severity vulnerabilities will affect the normal operation of the project. It is strongly recommended to fix high-risk vulnerabilities.",
+      "**2,000 ~ 5,000 USDC**",
+      "**Medium**",
+      "Medium severity vulnerability will affect the operation of the project. It is recommended to fix medium-risk vulnerabilities.",
+      "**200 ~ 1,000 USDC**",
+      "**Low**",
+      "Low severity vulnerabilities may affect the operation of the project in certain scenarios. It is suggested that the project team should evaluate and consider whether these vulnerabilities need to be fixed.",
+      "**10 ~ 200 USDC**"
     ],
-    "policy": "### Project Overview\nFounded in 2018, MEXC Global is known as the exchange of high performance and mega transaction matching technology. The team at MEXC Global are some of the first movers and pioneers of financial and blockchain technology.\n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Android: Play Store | [Mexc Google Play](https://play.google.com/store/apps/details?id=com.mexcpro.clien..."
-  },
-  {
-    "name": "InitVerse",
-    "description": "InitVerse is dedicated to building enterprise-grade infrastructure for the Web3 ecosystem, led by INIChain, which integrates innovative TfhEVM and DDA Mechanism technologies to enhance blockchain performance, privacy, and resource efficiency.",
-    "url": "https://bugrap.io/bounties/InitVerse",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nInitVerse is dedicated to building enterprise-grade infrastructure for the Web3 ecosystem, led by INIChain, which integrates innovative TfhEVM and DDA Mechanism technologies to enhance blockchain performance, privacy, and resource efficiency.\r\nWith INIChain as its foundation, InitVerse\u2019s SaaS Builder simplifies DApp creation and deployment, empowering developers and enterprises to focus on growth. The ecosystem also includes tools like Clown Wallet and Obs Swap, delivering ..."
-  },
-  {
-    "name": "Coral Finance",
-    "description": "Coral Finance is the premier marketplace and liquidity hub for pre-market assets, where users can easily discover hidden gems and blue chips.",
-    "url": "https://bugrap.io/bounties/Coral Finance",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nCoral Finance is the premier marketplace and liquidity hub for pre-market assets, where users can easily discover hidden gems and blue chips.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Coral Finance, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,Coral Finance will reward the earliest submission, reg..."
-  },
-  {
-    "name": "DigiFT",
-    "description": "DigiFT is a regulated exchange for on-chain real-world assets",
-    "url": "https://bugrap.io/bounties/DigiFT",
-    "in_scope": [],
-    "policy": "### Project Overview\n\nDigiFT is a next-generation regulated platform for tokenized real-world assets (RWAs).\nBacked by top-tier institutional partners, DigiFT brings together regulatory compliance, smart contract infrastructure, and deep financial expertise to enable secure, on-chain access to regulated RWA products.\n\n### Rewards\n\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of DigiFT, quality, creativity, or novelty of submissio..."
-  },
-  {
-    "name": "Soex",
-    "description": "SOEX is a cutting-edge social trading platform designed to connect traders, enhance your trading experience, and maximize your earnings through innovative features, next-gen assets and a strong focus on community engagement.",
-    "url": "https://bugrap.io/bounties/Soex",
-    "in_scope": [],
-    "policy": "### Project Overview\r\nSOEX is a cutting-edge social trading platform designed to connect traders, enhance your trading experience, and maximize your earnings through innovative features, next-gen assets and a strong focus on community engagement.\r\n\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Soex, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports..."
+    "policy": "# Ourbit Bug Bounty Program\n\n## Introduction\n\n**Ourbit Global**  \nFounded in 2024, Ourbit Global, with its high performance and mega transaction matching technology, is recognized as a secure and reliable exchange. The team at Ourbit Global are some of the first movers and pioneers of financial and blockchain technology.\n\n---\n\n## In Scopes\n\n| Platform | Target |\n|----------|---------------------|\n| **Android: Play Store** | ourbit Google Play |\n| **Android: Official Website** | Official Website ..."
   },
   {
     "name": "MerlinChain",
@@ -459,23 +273,139 @@
     "policy": "### Project Overview\r\n\r\nMerlin is a Bitcoin Layer 2 that integrates ZK-Rollup network, decentralized oracle network, and on-chain BTC fraud proof modules. Merlin Chain is committed to empowering Bitcoin's native assets, protocols, and products on Layer 1 through its Layer 2 network, to Make Bitcoin Fun Again.\r\n\r\n### Rewards\r\n\r\nCritical vulnerabilities are further capped at 10% of economic damage, with the main consideration being the funds affected in addition to PR and brand considerations, at ..."
   },
   {
-    "name": "Transit swap",
-    "description": "Transit swap is a Cross-Chain Swap Aggregator Platform on #ETH #BSC #Polygon #Heco #Tron #OEC #HSC and etc.",
-    "url": "https://bugrap.io/bounties/Transit swap",
-    "in_scope": [
-      "[TransitRouterV5 Source](https://github.com/Transit-Finance/transit-core-v5)"
-    ],
-    "policy": "### Project Overview\nTransit swap is a Cross-Chain Swap Aggregator Platform on #ETH #BSC #Polygon #Heco #Tron #OEC #HSC and etc.\n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Latest Source | [TransitRouterV5 Source](https://github.com/Transit-Finance/transit-core-v5)\n\n\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion..."
+    "name": "Zenlink",
+    "description": "Zenlink is an underlying cross-chain DEX protocol based on Polkadot, and is committed to become the DEX composable hub of Polkadot. By accessing the ultimate, open and universal cross-chain DEX protocol based on Substrate, Zenlink DEX Protocol enables all parachains to build DEX and achieve liquidity sharing in one click. Zenlink DEX Protocol includes Module, WASM, and EVM implementations, which are flexible and adaptable, allowing for customizable compositions and interoperability with different DeFi modules.",
+    "url": "https://bugrap.io/bounties/Zenlink",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nZenlink DEX Protocol is the underlying unified and universal cross-chain DEX Protocol, which enables parachains to quickly have DEX functionality and share liquidity with other parachains. In addition, Zenlink DEX Aggregator can connect to all DEX DApps on Polkadot, which together form the Zenlink DEX Network with full liquidity.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |                                                   |\r\n| ------------ | ------------------------------------------..."
   },
   {
-    "name": "Coin98",
-    "description": "Coin98 is building the infrastructure for Web3 with a suite of DeFi products | Coin98 Wallet, Coin98 Exchange and SpaceGate.",
-    "url": "https://bugrap.io/bounties/Coin98",
+    "name": "PlatON",
+    "description": "PlatON is an infrastracture for Privacy-Preserving Computation and Distributed Economies.",
+    "url": "https://bugrap.io/bounties/PlatON",
+    "in_scope": [],
+    "policy": "### Project Overview\r\n\r\nPlatON, is a next-generation Internet infrastructure protocol based on the fundamental properties of blockchain and supported by the privacy-preserving computation network. \"Computing interoperability\" is its core feature.\r\n\r\n### Rewards\r\n\r\nRewards Rewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of PlatON, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\n\r\nIn case of mu..."
+  },
+  {
+    "name": "MoreLogin",
+    "description": "MoreLogin is a cutting-edge technology business with a focus on browser security.",
+    "url": "https://bugrap.io/bounties/MoreLogin",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nMoreLogin is a cutting-edge technology business with a focus on browser security.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of MoreLogin , quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue,MoreLogin will reward the earliest submission, regardless of how the issue was reported.\r\nCVSS standards will be used..."
+  },
+  {
+    "name": "JOJO",
+    "description": "JOJO is a decentralized perpetual contract trading platform that uses an off-chain matching and on-chain settlement order book model.\r\nJOJO balances liquidity and composability, providing professional traders with a smooth, fast, low-cost trading experience and hedging capabilities for other DeFi protocols.",
+    "url": "https://bugrap.io/bounties/JOJO",
+    "in_scope": [],
+    "policy": "### Project Overview\r\n\r\nJOJO is a decentralized perpetual contract trading platform that uses an off-chain matching and on-chain settlement order book model.\r\nJOJO balances liquidity and composability, providing professional traders with a smooth, fast, low-cost trading experience and hedging capabilities for other DeFi protocols.\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of jojo exchange, quality, creativity..."
+  },
+  {
+    "name": "Mask",
+    "description": "Mask Network brings privacy and benefits from Web3 to social media like Twitter & Facebook - with an open-sourced browser extension.",
+    "url": "https://bugrap.io/bounties/Mask",
+    "in_scope": [],
+    "policy": "### Project Overview\r\n\r\nMask Network brings privacy and benefits from Web3 to social media like Twitter & Facebook - with an open-sourced browser extension.\r\n\r\n### Rewards\r\n\r\nRewards will be provided according to the rules of this bug bounty program as outlined. At the discretion of Mask Network, quality, creativity, or novelty of submissions may adjust payouts within a given range.\r\n\r\nIn case of multiple reports about the same issue, Mask Network will reward the earliest submission, regardless ..."
+  },
+  {
+    "name": "Rabby Wallet",
+    "description": "Rabby is an open source browser plugin for the DeFi ecosystem, providing users with a better-to-use and more secure multi-chain experience.",
+    "url": "https://bugrap.io/bounties/Rabby Wallet",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nRabby is an open source browser plugin for the DeFi ecosystem, providing users with a better-to-use and more secure multi-chain experience.\r\n\r\nAt Rabby, we understand the effort that goes into security research. To show our appreciation to researchers, who help keep our products and our customers safe, we are glad to introduce a Responsible Disclosure Program to provide recognition and rewards for responsibly disclosed vulnerabilities.\r\n\r\n### Scopes\r\n\r\n| In Scopes    |     ..."
+  },
+  {
+    "name": "Unitus",
+    "description": "The Next-Generation Multichain Money Market.",
+    "url": "https://bugrap.io/bounties/Unitus",
+    "in_scope": [],
+    "policy": "### Project Overview\nUnitus is a decentralized money market protocol utilizing smart contracts to facilitate crypto lending.\n### Rewards\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Unitus, quality, creativity, or novelty of submissions may modify payouts within a given range.\nIn case of multiple reports about the same issue,Unitus will reward the earliest submission, regardless of how the issue was reported.\nCVSS standards wi..."
+  },
+  {
+    "name": "Mexc",
+    "description": "Founded in 2018, MEXC Global is known as the exchange of high performance and mega transaction matching technology. The team at MEXC Global are some of the first movers and pioneers of financial and blockchain technology.",
+    "url": "https://bugrap.io/bounties/Mexc",
+    "in_scope": [],
+    "policy": "### Project Overview\nFounded in 2018, MEXC Global is known as the exchange of high performance and mega transaction matching technology. The team at MEXC Global are some of the first movers and pioneers of financial and blockchain technology.\n\n### Scopes\n\n| In Scopes    |                                                   |\n| ------------ | ------------------------------------------------- |\n| Android: Play Store | [Mexc Google Play](https://play.google.com/store/apps/details?id=com.mexcpro.clien..."
+  },
+  {
+    "name": "Bitget",
+    "description": "Launched in 2018, Bitget provides comprehensive and secure trading solutions to our global userbase.\nThe following is a description of the types of vulnerabilities we accept, and we reject software bugs that do not pose a security risk.\nReceived vulnerability types:\n- Authentication and authorization issues: including password reset, session management, access control, etc.\n- Input validation and data processing: Issues involving user input, such as cross-site scripting (XSS), SQL injection, remote code execution, etc.\n- Sensitive information leakage: including unencrypted transmission, incorrect data storage, etc. that lead to sensitive information leakage.\n- Network security configuration: involves configuration issues such as network protocols, firewalls, and security groups.\n- Logic vulnerability: involves a logic error or inconsistency in an application that may result in unauthorized access or disruption of functionality.\n- Server configuration: including network server, database server and other configuration issues.\n- Mobile Application Security: Covers vulnerabilities in mobile applications such as insecure data storage, unauthorized access, etc.\nUnreceived software bug types:\n- Interface issues, style issues, or user experience issues.\n- Performance issues, memory leaks, or optimization issues.\n- Feature bugs or feature suggestions.\n- Vulnerabilities that have been publicly disclosed and do not pose a security risk.",
+    "url": "https://bugrap.io/bounties/Bitget",
     "in_scope": [
-      "Android: Play Store",
-      "iOS: App Store",
-      "Web: Domain"
+      "Web",
+      "`*.bitget.com`",
+      "Mobile App (Exchange) \u2014 Android",
+      "Bitget Exchange \u2014 latest version",
+      "Mobile App (Exchange) \u2014 iOS",
+      "Bitget Exchange \u2014 latest version",
+      "Wallet App \u2014 Android",
+      "Bitget Wallet \u2014 latest version",
+      "Wallet App \u2014 iOS",
+      "Bitget Wallet \u2014 latest version",
+      "Wallet Extension",
+      "Chrome / Edge / Firefox \u2014 Bitget Wallet Extension, latest version",
+      "Desktop Client",
+      "Windows / macOS \u2014 Bitget Desktop Client, latest version"
     ],
-    "policy": "### Project Overview\nCoin98 is building the infrastructure for Web3 with a suite of DeFi products | Coin98 Wallet, Coin98 Exchange and SpaceGate.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| Android: Play Store | [Coin98 Google Play](https://play.google.com/store/apps/details?id=coin98.crypto.finance.media) |\n| iOS: App Store ..."
+    "policy": "# Bitget Bug Bounty Program\n\n## 1. Project Overview\n\nEstablished in 2018, Bitget is the world's leading cryptocurrency exchange and Web3 company. Serving over 25 million users in 100+ countries and regions, the Bitget exchange is committed to helping users trade smarter with its pioneering copy trading feature and other trading solutions. Formerly known as BitKeep, Bitget Wallet is a world-class multi-chain crypto wallet that offers an array of comprehensive Web3 solutions and features including..."
+  },
+  {
+    "name": "LBank",
+    "description": "LBank Exchange is a top cryptocurrency trading platform with licenses of NFA, MSB, and Canada MSB.",
+    "url": "https://bugrap.io/bounties/LBank",
+    "in_scope": [],
+    "policy": "## Project Overview\n\nLBank is a global digital asset trading platform established in 2015, providing secure, professional, and user-friendly services. To maintain platform security and reward security researchers, we are launching the **LBank Bug Bounty Program**. We value security contributions that help us protect our users and core business functions.\n\n## Scope\n\n### In Scope\n\n- Android App (Google Play)\n- iOS App (App Store)\n- Official Website: `*.lbank.com`\n- Core business modules:\n  - Login..."
+  },
+  {
+    "name": "Wizz Wallet",
+    "description": "Wizz Wallet is the first wallet for Atomicals Protocol.",
+    "url": "https://bugrap.io/bounties/Wizz Wallet",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nWizz Wallet is the first wallet for Atomicals Protocol. You can mint and transfer ARC20, NFT and realms with both browser extension and mobile App.\r\n### Rewards\r\nRewards will be provided according to the rules of this bug bounty program as outlined above. At the discretion of Wizz Wallet, quality, creativity, or novelty of submissions may modify payouts within a given range.\r\nIn case of multiple reports about the same issue, Wizz Wallet will reward the earliest submission, ..."
+  },
+  {
+    "name": "TokenPocket",
+    "description": "TokenPocket is a world-leading crypto wallet, supporting public blockchains including BTC, ETH, BSC, TRON, Aptos, Polygon, Solana, OKExChain, Polkadot, Kusama, EOS and Layer2.",
+    "url": "https://bugrap.io/bounties/TokenPocket",
+    "in_scope": [],
+    "policy": "### Project Overview\nTokenPocket is a world-leading crypto wallet, supporting public blockchains including BTC, ETH, BSC, TRON, Aptos, Polygon, Solana, OKExChain, Polkadot, Kusama, EOS and Layer2.\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| iOS: App Store      | [TokenPocket for IOS](https://apps.apple.com/hk/app/tp-global-wa..."
+  },
+  {
+    "name": "OneKey",
+    "description": "The best way to keep crypto assets safe in the industry. Your bitcoin, ethereum, solana, and other crypto assets can all be safe and secure.",
+    "url": "https://bugrap.io/bounties/OneKey",
+    "in_scope": [],
+    "policy": "# OneKey Bug Bounty Program\n\nThis bug bounty program covers code within the OneKey repositories that directly impacts the security of OneKey products and users.\n\nAll vulnerability reports must be submitted through one of the following channels:\n1. **Private disclosure**: Send an email to [security@onekey.so](mailto:[security@onekey.so]) \u2014 recommended for high-severity vulnerabilities. Private submissions remain fully eligible for bounties.\n2. **BugRap Platform**: Submit through our official page..."
+  },
+  {
+    "name": "Bitget Wallet (Formerly BitKeep)",
+    "description": "Bitget Wallet \u2014 Your Web3 Trading Wallet of the Future",
+    "url": "https://bugrap.io/bounties/Bitget Wallet (Formerly BitKeep)",
+    "in_scope": [
+      "Web",
+      "Bitget Wallet web interfaces",
+      "Wallet App \u2014 Android",
+      "Bitget Wallet \u2014 latest version (Google Play)",
+      "Wallet App \u2014 iOS",
+      "Bitget Wallet \u2014 latest version (App Store)",
+      "Wallet Extension",
+      "Chrome / Edge / Firefox \u2014 Bitget Wallet Extension, latest version"
+    ],
+    "policy": "# Bitget Wallet Bug Bounty Program\n\n## 1. Project Overview\n\nFormerly known as BitKeep, Bitget Wallet is a world-class multi-chain crypto wallet serving millions of users globally. It offers comprehensive Web3 solutions including wallet functionality, token swap, NFT Marketplace, DApp browser, and cross-chain bridging. Bitget Wallet is committed to maintaining the highest security standards to protect user assets and privacy.\n\n### Asset Summary\n\n| Asset Category | Description |\n|---|---|\n| Web | ..."
+  },
+  {
+    "name": "InitVerse",
+    "description": "InitVerse is dedicated to building enterprise-grade infrastructure for the Web3 ecosystem, led by INIChain, which integrates innovative TfhEVM and DDA Mechanism technologies to enhance blockchain performance, privacy, and resource efficiency.",
+    "url": "https://bugrap.io/bounties/InitVerse",
+    "in_scope": [],
+    "policy": "### Project Overview\r\nInitVerse is dedicated to building enterprise-grade infrastructure for the Web3 ecosystem, led by INIChain, which integrates innovative TfhEVM and DDA Mechanism technologies to enhance blockchain performance, privacy, and resource efficiency.\r\nWith INIChain as its foundation, InitVerse\u2019s SaaS Builder simplifies DApp creation and deployment, empowering developers and enterprises to focus on growth. The ecosystem also includes tools like Clown Wallet and Obs Swap, delivering ..."
+  },
+  {
+    "name": "ZKSAFE",
+    "description": "ZKSAFE | A security partner of crypto wallet.",
+    "url": "https://bugrap.io/bounties/ZKSAFE",
+    "in_scope": [],
+    "policy": "### Project Overview\nZKSAFE | A security partner of crypto wallet\n\n### Scopes\n\n| In Scopes           |                                                                            |\n| ------------------- | -------------------------------------------------------------------------- |\n| Web: Domain         | app.zksafe.pro                                    |\n| Chrome: Web Store   | [ZKSAFE Chrome Extension](https://chrome.google.com/webstore/detail/zksafe/nehdcpkmooagohgkdchblmnfljmnbihg)        |\n|..."
   }
 ]
